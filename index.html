@@ -1,0 +1,387 @@
+<!-- 
+  COPYRIGHT (c) 2026 Richline. ALL RIGHTS RESERVED.
+  This software is the proprietary information of Richline.
+  Unauthorised use, modification, or distribution is strictly prohibited.
+-->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="UC2WWtFYLqU6IDtSYNrDWKH330qS1rt3mSJZGhGgQCo" />
+    <meta name="description" content="نموذج استلام بيانات العميل (SEO & Web Design) - Richline">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/xCg7fhdQ/11135742.png">
+    <title>نموذج استلام بيانات الموقع (SEO & Design)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="form-container">
+        
+        <!-- Header -->
+        <header class="hero-header">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <img class="hero-logo" src="https://i.postimg.cc/k5TMdKX4/imgi-50-Asset-1-300x59.png" alt="Logo" />
+                <h1 class="hero-title">نموذج البنية الاستراتيجية</h1>
+                <p class="hero-subtitle">مرحباً بك — برجاء تعبئة البيانات المطلوبة بدقة لضمان تقديم أفضل خدمة لك</p>
+            </div>
+        </header>
+
+        <div class="form-content">
+            
+            <!-- Notice -->
+            <section class="business-info">
+                <div>
+                    <h2 style="margin:0; font-size:18px; font-weight:700; border:none; padding:0; color: #1a73e8;">شركة Richline</h2>
+                    <p style="margin:8px 0 0; font-size:14px; color:#555; line-height:1.6;">
+                        هذا النموذج مخصص لجمع البيانات التقنية الخاصة بتحسين محركات البحث (SEO) وتصميم الموقع وبيانات الدخول اللازمة للبدء في العمل. يرجى تعبئة البيانات بدقة.
+                    </p>
+                </div>
+            </section>
+
+            <form dir="rtl" class="client-intake-form" action="#" method="POST">
+
+                <!-- Anti-Spam Honeypot Field -->
+                <div class="honey-pot" aria-hidden="true">
+                    <label for="website_url_check">Leave this field empty</label>
+                    <input type="text" id="website_url_check" name="website_url_check" tabindex="-1" autocomplete="off">
+                </div>
+
+                <!-- 🟦 القسم الأول: معلومات عامة عن العميل -->
+                <div class="section-card">
+                    <h2>القسم الأول: المعلومات الأساسية (SEO Strategy)</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="company_name">اسم الشركة / العلامة التجارية</label>
+                            <input type="text" id="company_name" name="company_name" placeholder="ادخل الاسم...">
+                        </div>
+                        <div class="form-group">
+                            <label for="website_url">رابط الموقع الإلكتروني الرسمي (Website URL)</label>
+                            <input type="url" id="website_url" name="website_url" placeholder="https://example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="store_platform_link">رابط المتجر (سلة / زد / ووردبريس)</label>
+                            <input type="url" id="store_platform_link" name="store_platform_link" placeholder="رابط المتجر...">
+                        </div>
+                        <div class="form-group">
+                            <label for="geo_targeting">النطاق الجغرافي المستهدف (Geo-Targeting)</label>
+                            <input type="text" id="geo_targeting" name="geo_targeting" placeholder="مثال: الرياض، جدة، كافة مناطق المملكة...">
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="target_keywords">قائمة الكلمات المفتاحية المستهدفة (Target Keywords)</label>
+                            <textarea id="target_keywords" name="target_keywords" rows="3" placeholder="اذكر الكلمات التي ترغب بتصدر نتائج البحث فيها..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="seo_competitors">أهم 3 منافسين يتصدرون نتائج البحث (SEO Competitors)</label>
+                            <textarea id="seo_competitors" name="seo_competitors" rows="3" placeholder="روابط مواقع المنافسين..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🟦 القسم الثاني: الحالة التقنية (Technical SEO) -->
+                <div class="section-card">
+                    <h2>القسم الثاني: الحالة التقنية (Technical SEO)</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="gsc_linked">هل تم ربط Google Search Console؟</label>
+                            <select id="gsc_linked" name="gsc_linked">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم</option>
+                                <option value="no">لا</option>
+                                <option value="unsure">غير متأكد</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sitemap_status">هل يوجد ملف Sitemap محدث؟</label>
+                            <select id="sitemap_status" name="sitemap_status">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم (تم تقديمه)</option>
+                                <option value="no">لا</option>
+                                <option value="unsure">غير متأكد</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="site_history">تاريخ الموقع (Migration History)</label>
+                            <select id="site_history" name="site_history">
+                                <option value="" disabled selected>اختر الحالة</option>
+                                <option value="new">موقع جديد (New Site)</option>
+                                <option value="migrated">تم نقله حديثاً (Recently Migrated)</option>
+                                <option value="old">موقع قديم (Existing Site)</option>
+                                <option value="unsure">غير متأكد</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="penalties_history">هل توجد عقوبات سابقة من جوجل؟</label>
+                            <select id="penalties_history" name="penalties_history">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم (توجد عقوبات)</option>
+                                <option value="no">لا</option>
+                                <option value="unsure">غير متأكد</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product_desc_unique">هل وصف المنتجات فريد أم منسوخ؟</label>
+                            <select id="product_desc_unique" name="product_desc_unique">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="unique">فريد (مكتوب خصيصاً)</option>
+                                <option value="copied">منسوخ من الموردين</option>
+                                <option value="mixed">خليط</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="blog_active">هل توجد مدونة (Blog) مفعلة؟</label>
+                            <select id="blog_active" name="blog_active">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم</option>
+                                <option value="no">لا</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gmb_active">هل تم تفعيل Google My Business (الخرائط)؟</label>
+                            <select id="gmb_active" name="gmb_active">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم</option>
+                                <option value="no">لا</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="merchant_center">هل تم تفعيل Google Merchant Center؟</label>
+                            <select id="merchant_center" name="merchant_center">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم</option>
+                                <option value="no">لا</option>
+                            </select>
+                        </div>
+
+                         <div class="form-group full-width">
+                            <label for="tracking_setup">حالة التتبع (Tracking Setup)</label>
+                            <input type="text" id="tracking_setup" name="tracking_setup" placeholder="Google Tag Manager / Analytics 4 (GA4) / Facebook Pixel...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🟦 القسم الثالث: التصميم وتجربة المستخدم -->
+                <div class="section-card">
+                    <h2>القسم الثالث: التصميم وتجربة المستخدم (Design & UX)</h2>
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                            <label for="brand_guidelines_link">رابط دليل الهوية البصرية (Brand Guidelines PDF)</label>
+                            <input type="url" id="brand_guidelines_link" name="brand_guidelines_link" placeholder="رابط درايف للملف...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="logo_source_link">رابط ملف الشعار المفتوح (Logo Source - AI/SVG)</label>
+                            <input type="url" id="logo_source_link" name="logo_source_link" placeholder="رابط درايف للشعار...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="official_fonts">الخطوط الرسمية المستخدمة (Fonts)</label>
+                            <input type="text" id="official_fonts" name="official_fonts" placeholder="أسماء الخطوط...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="visual_style">التوجه البصري المفضل</label>
+                            <select id="visual_style" name="visual_style">
+                                <option value="" disabled selected>اختر التوجه المفضل</option>
+                                <option value="minimalist">Minimalist (بسيط ونظيف)</option>
+                                <option value="luxury">Luxury (فاخر وراقي)</option>
+                                <option value="bold">Bold (جريء وقوي)</option>
+                                <option value="official">Official/Corporate (رسمي)</option>
+                                <option value="modern">Modern (عصري وتقني)</option>
+                                <option value="playful">Playful (مرح وحيوي)</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="photo_library_link">رابط مكتبة صور المنتجات (Product Photography)</label>
+                            <input type="url" id="photo_library_link" name="photo_library_link" placeholder="رابط درايف للصور عالية الجودة...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="design_benchmarks">أمثلة لمواقع يعجبك تصميمها (Benchmarks)</label>
+                            <textarea id="design_benchmarks" name="design_benchmarks" rows="3" placeholder="روابط مواقع تعجبك التجربة فيها..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="avoid_elements">عناصر أو ألوان يجب تجنبها تماماً</label>
+                            <textarea id="avoid_elements" name="avoid_elements" rows="2" placeholder="أي شيء لا ترغب برؤيته في التصميم..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="primary_cta">الإجراء الرئيسي المطلوب (Primary CTA)</label>
+                            <select id="primary_cta" name="primary_cta">
+                                <option value="" disabled selected>اختر الإجراء الرئيسي</option>
+                                <option value="purchase">Purchase (إتمام شراء)</option>
+                                <option value="lead">Lead/Sign Up (تسجيل بيانات)</option>
+                                <option value="whatsapp">WhatsApp (تواصل واتساب)</option>
+                                <option value="call">Call (اتصال هاتفي)</option>
+                                <option value="visit">Visit Store (زيارة الفرع)</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="css_customization">هل باقتكم (سلة/زد) تدعم CSS المخصص؟</label>
+                            <select id="css_customization" name="css_customization">
+                                <option value="" disabled selected>اختر الإجابة</option>
+                                <option value="yes">نعم (برو / نمو)</option>
+                                <option value="no">لا (باقة أساسية)</option>
+                                <option value="unsure">غير متأكد</option>
+                            </select>
+                        </div>
+                        
+                         <div class="form-group">
+                            <label for="wp_builder">للووردبريس: ما هو الـ Page Builder المفضل؟</label>
+                            <select id="wp_builder" name="wp_builder">
+                                <option value="" disabled selected>اختر باني الصفحات</option>
+                                <option value="elementor">Elementor</option>
+                                <option value="divi">Divi</option>
+                                <option value="gutenberg">Gutenberg (Block Editor)</option>
+                                <option value="wpbakery">WPBakery</option>
+                                <option value="bricks">Bricks</option>
+                                <option value="oxygen">Oxygen</option>
+                                <option value="none">لا يوجد / برمجة خاصة</option>
+                                <option value="not_wp">ليس ووردبريس</option>
+                                <option value="unsure">غير متأكد</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="landing_pages">هل توجد صفحات هبوط (Landing Pages) خاصة؟</label>
+                            <textarea id="landing_pages" name="landing_pages" rows="2" placeholder="نعم، لعروض خاصة / منتج واحد..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="mobile_notes">ملاحظات على تجربة الجوال (Mobile UX)</label>
+                            <textarea id="mobile_notes" name="mobile_notes" rows="2" placeholder="أي مشاكل حالية في التصفح من الجوال..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🟦 القسم الرابع: بيانات الوصول والصلاحيات -->
+                <div class="section-card">
+                    <h2>القسم الرابع: بيانات الوصول والصلاحيات (Access Credentials)</h2>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">يرجى تزويدنا بالبيانات التالية للبدء في الإعداد التقني. يتم التعامل مع هذه البيانات بسرية تامة.</p>
+                    
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                            <label for="store_login_url">رابط الدخول للوحة التحكم (Admin URL)</label>
+                            <input type="url" id="store_login_url" name="store_login_url" placeholder="https://salla.sa/site/login or wp-admin...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="admin_username">اسم المستخدم / البريد (Admin User)</label>
+                            <input type="text" id="admin_username" name="admin_username" placeholder="Email or Username..." autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="admin_password">كلمة المرور (Password)</label>
+                            <!-- Changed to password type for security, autocomplete off to prevent flagging -->
+                            <input type="password" id="admin_password" name="admin_password" placeholder="********" autocomplete="new-password">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="domain_provider">مزود النطاق (Domain Provider)</label>
+                            <input type="text" id="domain_provider" name="domain_provider" placeholder="GoDaddy, Namecheap, Google Domains...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="domain_access">بيانات لوحة النطاق (DNS Access)</label>
+                            <input type="text" id="domain_access" name="domain_access" placeholder="User/Pass (للتحكم في DNS/TXT Records)..." autocomplete="off">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="hosting_access">للووردبريس: بيانات الاستضافة (cPanel/FTP/SSH)</label>
+                            <textarea id="hosting_access" name="hosting_access" rows="3" placeholder="Host IP, Username, Password, Port..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ga_email">إيميل Google Analytics (لمنح الصلاحية)</label>
+                            <input type="email" id="ga_email" name="ga_email" placeholder="Gmail Address...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gtm_email">إيميل Google Tag Manager (GTM)</label>
+                            <input type="email" id="gtm_email" name="gtm_email" placeholder="Gmail Address...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gsc_access">حساب Search Console (Owner/Full)</label>
+                            <input type="text" id="gsc_access" name="gsc_access" placeholder="البريد المضاف كمسؤول...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cloudflare_access">بيانات Cloudflare (إن وجد)</label>
+                            <input type="text" id="cloudflare_access" name="cloudflare_access" placeholder="User/Pass (للأداء والحماية)..." autocomplete="off">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="third_party_apps">تطبيقات الطرف الثالث (3rd Party Integrations)</label>
+                            <textarea id="third_party_apps" name="third_party_apps" rows="2" placeholder="ERP, CRM, Mailchimp, Zapier..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="installed_plugins">تطبيقات/إضافات مثبتة تؤثر على الواجهة</label>
+                            <textarea id="installed_plugins" name="installed_plugins" rows="2" placeholder="أي إضافات تعدل التصميم أو تظهر بوب أب..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🟦 ملاحظات إضافية -->
+                <div class="section-card">
+                    <h2>القسم الخامس: ملاحظات ختامية</h2>
+                    <div class="form-group full-width">
+                        <textarea id="additional_notes" name="additional_notes" rows="4" placeholder="مساحة حرة لأي تفاصيل إضافية أو تعليمات خاصة..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Messages & Button -->
+                <div id="success-message">تم إرسال البيانات بنجاح!</div>
+                <div id="error-message">حدث خطأ أثناء الإرسال.</div>
+
+                <button type="submit">إرسال النموذج</button>
+
+                <!-- Footer -->
+                <div class="contact-footer">
+                    <a href="http://richline.sa/" class="footer-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#1A73E8">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93V20h-2v-.07C7.06 19.44 4 16.08 4 12c0-.29.02-.58.05-.86L6 13v-2l-1.94-1.14C4.4 7.36 7.74 4 12 4c1.85 0 3.55.63 4.9 1.69L15.45 7.1A5.96 5.96 0 0 0 12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c.72 0 1.41-.13 2.05-.36l1.43 1.43A7.932 7.932 0 0 1 12 20c-.34 0-.67-.02-1-.07z" />
+                        </svg>
+                        richline.sa
+                    </a>
+                    <a href="https://wa.me/966549988810" class="footer-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366">
+                            <path d="M12 2C6.48 2 2 6.48 2 12c0 1.88.52 3.62 1.43 5.12L2 22l4.99-1.3A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.65 0-3.17-.5-4.45-1.36l-.32-.21-2.96.77.79-2.89-.23-.34A7.93 7.93 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.39-5.61c-.24-.12-1.43-.71-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.18-1.4-1.32-1.64-.14-.24-.01-.37.1-.49.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.41-.54-.42-.14-.01-.3-.01-.46-.01s-.42.06-.64.3c-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
+                        </svg>
+                        +966549988810
+                    </a>
+                </div>
+
+                <footer style="text-align:center; margin-top:20px; font-size:13px; color:#777;">
+                    © 2026 Richline — جميع الحقوق محفوظة
+                </footer>
+
+            </form>
+        </div>
+    </main>
+
+    <!-- Link to external JS (defer ensures it runs after parsing) -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
