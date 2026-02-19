@@ -1,37 +1,41 @@
-Richline Client Intake Form
+# Richline Client Intake Form
 
-⚠️ PROPRIETARY SOFTWARE -- DO NOT DISTRIBUTE
+⚠️ **PROPRIETARY SOFTWARE — DO NOT DISTRIBUTE**
 
-This is a proprietary client intake tool developed exclusively for Richline. It handles secure data collection for SEO strategies, technical credentials, and design preferences.
+This is a proprietary client intake tool developed exclusively for Richline.  
+It handles secure data collection for SEO strategies, technical credentials, and design preferences.
 
-⛔ License & Legal Warning
+---
+
+## ⛔ License & Legal Notice
 
 Copyright © 2026 Richline. All Rights Reserved.
 
-This source code is NOT open source.
+This source code is **NOT** open source.
 
-You are NOT allowed to copy, modify, or distribute this code.
+You are **NOT** permitted to copy, modify, distribute, sublicense, or use this code for commercial or personal projects.
 
-You are NOT allowed to use this code for commercial or personal projects.
+Unauthorized use constitutes a violation of copyright law and may result in legal action.
 
-Unauthorised use is a violation of copyright law.
+---
 
-📂 Project Structure
+## 📂 Project Structure
 
-index.html: Main form structure.
+- `index.html` — Main form structure  
+- `styles.css` — Proprietary styling and branding  
+- `script.js` — Form logic and security handlers  
 
-styles.css: Proprietary styling and branding.
+---
 
-script.js: Form logic and security handlers.
+## 🚀 Features
 
-🚀 Features
+- **Spam Protection** — Time-trap and honeypot mechanisms  
+- **Secure Data Handling** — Direct integration with Richline internal systems  
+- **Strict Validation** — Ensures structured and reliable data collection  
 
-Spam Protection: Time-trap and Honeypot logic.
+---
 
-Secure Data Handling: Direct integration with Richline's internal systems.
+## 🔒 Security Notice
 
-Strict Validation: Ensures data integrity for internal workflows.
-
-🔒 Security
-
-This form is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
+This software is protected under applicable copyright laws and international treaties.  
+Unauthorized reproduction, distribution, or modification of this program, in whole or in part, may result in severe civil and criminal penalties and will be enforced to the fullest extent permitted by law.
